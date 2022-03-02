@@ -33,6 +33,20 @@ a {
   text-decoration: none;
   transition: var(--transition);
 }
+button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.1rem;
+  font-family: 'Quantico', sans-serif;
+  text-transform: uppercase;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
 /*************
 grid sistem
 *************/
@@ -99,4 +113,30 @@ nav ul li a {
 }
 nav ul li:hover  {
   border-bottom: 3px solid var(--green);
+}
+/*******************
+H O M E
+********************/
+/*************
+header
+*************/
+header {
+  background: linear-gradient(rgba(30, 30, 30, .5), rgba(30, 30, 30, .5)), url(img/header.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 20px 200px 20px;
+  text-align: right;
+  color: var(--white);
+}
+header h1 {
+  font-size: 8rem;
+}
+header p {
+  font-size: 1.2rem;
+}
+header button {
+  background: var(--yellow);
+}
+header button:hover {
+  background: var(--green);
 }
