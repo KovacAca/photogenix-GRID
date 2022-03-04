@@ -108,8 +108,6 @@ nav ul li a {
 }
 .active {
   border-bottom: 3px solid var(--green);
-  position: relative;
-  top: -3px;
 }
 nav ul li:hover  {
   border-bottom: 3px solid var(--green);
@@ -139,4 +137,41 @@ header button {
 }
 header button:hover {
   background: var(--green);
+}
+/*************
+services
+*************/
+.services img {
+  width: 100%;
+}
+.services .wrapper {
+  box-shadow: 0 0 25px lightgray;
+  margin: -110px 20px 20px 20px;
+  padding: 20px;
+  transition: var(--transition);
+  background-color: var(--white);
+}
+.services .wrapper:hover {
+  box-shadow: 0 0 25px gray;
+}
+.services .text {
+  text-align: center;
+  padding: 20px;
+}
+.services .text h3 {
+  font-size: 2rem;
+}
+.services .text h3::after {
+  display: block;
+  content: '';
+  height: 2px;
+  width: 60%;
+  margin: 30px auto;
+  background-color: lightgray;
+}
+.services .text p {
+  padding: 10px 50px 10px 50px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
