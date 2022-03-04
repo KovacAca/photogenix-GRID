@@ -47,6 +47,10 @@ button {
   width: 70%;
   margin: auto;
 }
+h2 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
 /*************
 grid sistem
 *************/
@@ -174,4 +178,53 @@ services
   font-size: 1.1rem;
   letter-spacing: 1px;
   font-weight: 500;
+}
+/*************
+works
+*************/
+.works {
+  padding: var(--padding);
+  text-align: center;
+}
+.works .col,
+.works .col-12,
+.works .col-6 {
+  background-position: center;
+  background-size: cover;
+  transition: var(--transition);
+}
+.works .col:hover,
+.works .col-12:hover,
+.works .col-6:hover {
+  opacity: 0.8;
+}
+.works1 {
+  background: url(img/works1.jpg);
+  height: 50vh;
+}
+.works2 {
+  background: url(img/works2.jpg);
+  height: 50vh;
+}
+.works3 {
+  background: url(img/works3.jpg);
+  height: 100vh;
+}
+.works4 {
+  background: url(img/works4.jpg);
+  height: 50vh;
+}
+.works5 {
+  background: url(img/works5.jpg);
+  height: 50vh;
+}
+.works6 {
+  background: url(img/works6.jpg);
+  height: 50vh;
+}
+.works button {
+  background: var(--green);
+}
+.works button:hover {
+  background: var(--yellow);
 }
