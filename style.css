@@ -299,4 +299,36 @@ works
 .works button:hover {
   background: var(--yellow);
 }
+/*********************
+A B O U T
+*********************/
+.about {
+  background-image: url(img/about1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.about .col-6:first-child {
+  background: var(--lightGrey);
+  padding: 80px;
+}
+.about .col-6:first-child .row {
+  padding-bottom: 40px;
+  padding-left: 90px;
+}
+.about .col-6:first-child .row::before {
+  font-family: "Font Awesome 5 Free"; 
+  content: "\f007";
+  color: var(--green);
+  background: var(--white);
+  font-size: 2rem;
+  padding: 20px;
+  position: relative;
+  top: 65px;
+  left: -100px;
+}
+.about h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
 
