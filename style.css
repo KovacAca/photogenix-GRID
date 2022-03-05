@@ -162,6 +162,13 @@ footer ::placeholder {
   color: var(--lightGrey);
   font-size: 1rem;
 }
+footer ::placeholder {
+  color: var(--lightGrey);
+  font-size: 1rem;
+}
+footer form :focus {
+  color: var(--white);
+}
 footer button {
   background: var(--green);
   transition: var(--transition);
