@@ -236,7 +236,8 @@ services
 .services .text h3 {
   font-size: 2rem;
 }
-.services .text h3::after {
+.services .text h3::after,
+.pricing h3::after {
   display: block;
   content: '';
   height: 2px;
@@ -427,6 +428,33 @@ testimonials
 }
 .testimonials .hgroup p {
   color: var(--green);
+}
+/***************
+pricing
+***************/
+.pricing {
+  padding: var(--padding);
+  text-align: center;
+}
+.pricing .wrapper {
+  margin: 30px;
+  box-shadow: 0 0 25px lightgray;
+  padding: 30px;
+  transition: var(--transition);
+}
+.pricing .wrapper:hover {
+  box-shadow: 0 0 25px gray;
+}
+.pricing ul li {
+  line-height: 2.5;
+  list-style: none;
+}
+.pricing button {
+  background: var(--green);
+}
+.pricing button:hover {
+  background: var(--black);
+  color: var(--white);
 }
 
 
