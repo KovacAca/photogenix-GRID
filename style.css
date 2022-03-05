@@ -384,5 +384,49 @@ promote
   background: var(--white);
   color: var(--black);
 }
+/***************
+testimonials
+***************/
+.testimonials {
+  padding: var(--padding);
+}
+.testimonials h2 {
+  text-align: center;
+}
+.testimonials h2 + p {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.testimonials img {
+  width: 40%;
+  float: left;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.testimonials .hgroup {
+  float: right;
+  text-align: right;
+  padding-top: 40px;
+  padding-right: 80px;
+}
+.testimonials .col-4::before {
+  content: "";
+  display: block;
+  height: 4px;
+  background: var(--lightGrey);
+  margin-bottom: 20px;
+}
+.clearfix {
+  clear: both;
+}
+.testimonials .col-4 {
+  padding: 30px;
+}
+.testimonials h3 {
+  font-size: 1.3rem;
+}
+.testimonials .hgroup p {
+  color: var(--green);
+}
 
 
