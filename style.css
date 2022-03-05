@@ -456,5 +456,54 @@ pricing
   background: var(--black);
   color: var(--white);
 }
-
+/*****************
+contact
+******************/
+.contact {
+  padding: var(--padding);
+}
+.contact i {
+  font-size: 2.8rem;
+  color: var(--green);
+  margin-top: 10px;
+}
+.contact h2 + p {
+  padding-bottom: 20px;
+}
+.contact h5 {
+  font-size: 1.5rem;
+}
+.contact form input {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid var(--green);
+  border-radius: 2px;
+  padding: 10px;
+}
+.contact form textarea {
+  width: 100%;
+  border: 1px solid var(--green);
+  border-radius: 2px;
+  padding: 10px;
+}
+.contact ::placeholder {
+  color: gray;
+}
+.contact :focus {
+  background-color: var(--green);
+}
+.contact button {
+  background: var(--green);
+}
+.contact button:hover {
+  background: var(--yellow);
+}
+/*****************
+responsive
+******************/
+@media(max-width: 767px) {
+  [class*="col-"] {
+   width: 100%;
+  }
+}
 
